@@ -1,13 +1,16 @@
 import Footer from './footer'
 import Navbar from './navbar'
 import Sidebar from './sidebar'
+import List from './list';
 
 function HomePage(){
     return(
     <>
     <Navbar />
-    <Footer  className='footer'/>
     <Sidebar />
+    <List> </List>
+    <Footer  className='footer'/>
+   
     </>
     );
 }
